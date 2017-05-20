@@ -1,0 +1,86 @@
+@base:414/15rem;
+//解决边框问题
+.allBorder-bottom(@w:1px,@color:#999){
+
+    border-bottom: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+      border-bottom: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+      border-bottom: @w/3 solid @color;
+
+  }
+}
+.allBorder-left(@w:1px,@color:#999){
+
+  border-left: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border-left: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border-left: @w/3 solid @color;
+
+  }
+}
+.allBorder(@w:1px,@color:#999){
+
+  border: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border: @w/3 solid @color;
+
+  }
+}
+.allBorder-top(@w:1px,@color:#999){
+
+  border-top: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border-top: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border-top: @w/3 solid @color;
+
+  }
+}
+.allBorder-right(@w:1px,@color:#999){
+
+  border-right: @w solid @color;
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    border-right: @w/2 solid @color;
+
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 3) {
+
+    border-right: @w/3 solid @color;
+
+  }
+}
+//居中
+.mid(@tran:translate(-50%,-50%)){
+  transform: @tran;
+}
