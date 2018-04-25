@@ -1,8 +1,8 @@
-# mp3Mplayer
+# vue-mp3Mplayer
 
 > A Vue.js project
 
-## Build Setup
+## vue-mp3Mplayer
 
 ``` bash
 # install dependencies
